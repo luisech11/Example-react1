@@ -1,0 +1,82 @@
+.App {
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+  padding: 1rem;
+  color: #000000;
+  text-shadow: 4px 5px 2px #ffffff;
+  text-align: center;
+  transition: scale 0.5s;
+}
+
+.title:hover {
+  scale: 1.1;
+}
+
+.phrase {
+  background-color: #ffffff;
+  height: 200px;
+  width: 80%;
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  position: relative;
+  box-shadow: 5px 5px 5px 0px rgba(176,163,163,0.75);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(176,163,163,0.75);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(176,163,163,0.75);
+  transition: scale 0.15s;
+} 
+
+.phrase:hover {
+  scale: 1.01;
+}
+
+.parag {
+  color: #000000;
+  line-height: 1.9rem;
+  font-size: 30px;
+}
+
+.iconQuote {
+  position: absolute;
+  right: 12rem;
+  bottom: 1.5rem;
+  font-size: 40px;
+  color: #746d6d;
+  transition: color 0.10s;
+}
+
+.iconQuote:hover {
+  color: #da6666;
+}
+
+.btn {
+  margin-top: 6rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border-color: #daafaf;
+  color: #000000;
+  font-size: 20px;
+  cursor: pointer;
+  transition: scale 0.15s;
+}
+
+.btn:hover {
+  scale: 1.1;
+}
+
+@media (min-width: 700px)  {
+  .phrase { width:65%;
+  }
+} 
